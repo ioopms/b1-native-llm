@@ -1,0 +1,103 @@
+{
+  "batch": "D:\\dsh\\idea\\1017\\b1-native-llm\\examples\\synthetic_json",
+  "format": "json",
+  "n_train": 120,
+  "n_test": 40,
+  "n_features": 128,
+  "n_classes": 4,
+  "metrics": {
+    "n": 40,
+    "correct": 40,
+    "correct_raw": 40,
+    "accuracy": 1.0,
+    "accuracy_raw": 1.0,
+    "macro_f1": 1.0,
+    "per_class": [
+      {
+        "label": "alpha",
+        "f1": 1.0,
+        "support": 10
+      },
+      {
+        "label": "beta",
+        "f1": 1.0,
+        "support": 10
+      },
+      {
+        "label": "delta",
+        "f1": 1.0,
+        "support": 10
+      },
+      {
+        "label": "gamma",
+        "f1": 1.0,
+        "support": 10
+      }
+    ],
+    "confusion_matrix": [
+      [
+        10,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        10,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        10,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        10
+      ]
+    ],
+    "labels": [
+      "alpha",
+      "beta",
+      "delta",
+      "gamma"
+    ],
+    "invalid": 0,
+    "errors": []
+  },
+  "checks": {
+    "order_invariance": {
+      "ok": true,
+      "changed": 0
+    },
+    "label_sensitivity": {
+      "ok": true,
+      "changed": 40
+    }
+  },
+  "prompt_sha256": "1fe1a84af36bd421c2029694b3f3606e5de5dc27f8353c6f433210adea4eeabd",
+  "candidate_sha256": "34d46fb8301cd687e2c4218a1df34631812b3b425164f42e2d0bb6d344e7f478",
+  "source_problems": [
+    "forbidden import: os"
+  ],
+  "sandbox_seconds": 3.383604049682617,
+  "model": "deepseek-flash",
+  "generation_seconds": 101.46792244911194,
+  "usage": {
+    "prompt_tokens": 1397,
+    "completion_tokens": 18112,
+    "total_tokens": 19509,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 16177
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 1397
+  }
+}

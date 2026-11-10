@@ -1,0 +1,107 @@
+{
+  "batch": "C:\\Users\\czz\\Downloads\\四分类，橄榄 (2)",
+  "format": "json",
+  "n_train": 84,
+  "n_test": 36,
+  "n_features": 570,
+  "n_classes": 4,
+  "metrics": {
+    "n": 36,
+    "correct": 32,
+    "correct_raw": 32,
+    "accuracy": 0.8888888888888888,
+    "accuracy_raw": 0.8888888888888888,
+    "macro_f1": 0.9198717948717949,
+    "per_class": [
+      {
+        "label": "Greece",
+        "f1": 1.0,
+        "support": 6
+      },
+      {
+        "label": "Italy",
+        "f1": 0.8333333333333334,
+        "support": 10
+      },
+      {
+        "label": "Portugal",
+        "f1": 1.0,
+        "support": 5
+      },
+      {
+        "label": "Spain",
+        "f1": 0.8461538461538461,
+        "support": 15
+      }
+    ],
+    "confusion_matrix": [
+      [
+        6,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        10,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        5,
+        0
+      ],
+      [
+        0,
+        4,
+        0,
+        11
+      ]
+    ],
+    "labels": [
+      "Greece",
+      "Italy",
+      "Portugal",
+      "Spain"
+    ],
+    "invalid": 0,
+    "errors": [
+      [
+        "test_033",
+        "Spain",
+        "Italy"
+      ],
+      [
+        "test_034",
+        "Spain",
+        "Italy"
+      ],
+      [
+        "test_035",
+        "Spain",
+        "Italy"
+      ],
+      [
+        "test_036",
+        "Spain",
+        "Italy"
+      ]
+    ]
+  },
+  "checks": {
+    "order_invariance": {
+      "ok": true,
+      "changed": 0
+    },
+    "label_sensitivity": {
+      "ok": true,
+      "changed": 36
+    }
+  },
+  "prompt_sha256": null,
+  "candidate_sha256": "1d8bc4b2d21fb7e55da1928b6b0ceb74c6c1e45b75adf84e81d283e6cca07b3a",
+  "source_problems": [],
+  "sandbox_seconds": 0.19817638397216797
+}
